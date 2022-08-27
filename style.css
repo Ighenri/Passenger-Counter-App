@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+    
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    width: 300px;
+    padding: 30px 45px;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+}
+.container::after{
+content: "";
+background: url(./BG.jpg);
+opacity: 0.2;
+left: 0;
+top:0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.head{
+    text-align: center;
+    color: black;
+    margin-top: -20px;
+    
+    
+}
+
+.head h1{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.head .count{
+    font-weight:bold;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.btn{
+   display: flex;
+   flex-direction: column;
+   row-gap: 5px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    width: 80%;
+    padding: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.incre{
+    background-color: rgb(92, 19, 19);
+}
+
+.save{
+    background-color: rgb(39, 110, 39);
+}
+
+.social{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.social a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
