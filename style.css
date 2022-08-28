@@ -24,7 +24,7 @@ body{
 .container::after{
 content: "";
 background: url(./BG.jpg);
-opacity: 0.2;
+opacity: 0.4;
 left: 0;
 top:0;
 bottom: 0;
@@ -51,7 +51,7 @@ background-repeat: no-repeat;
     letter-spacing: 1px;
 }
 
-.head .count{
+.head .counting{
     font-weight:bold;
     font-size: 30px;
     padding: 5px;
@@ -78,7 +78,7 @@ background-repeat: no-repeat;
     border-radius: 4px;
 }
 
-.incre{
+.increment-btn{
     background-color: rgb(92, 19, 19);
 }
 
