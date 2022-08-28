@@ -3,8 +3,6 @@
 // Increment the count variable when the button is clicked
 // change the counting in the HTML to reflect the new count
 
-// document.getElementById("increment-btn").innerText = 5
-
 let numCount= document.getElementById("num-count")
 console.log(numCount)
 
@@ -16,3 +14,6 @@ function increment() {
 }
 
 
+function save() {
+    console.log(count)
+}
