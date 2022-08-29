@@ -3,7 +3,7 @@
 ![](./screenshot.png)
 
 ## Passenger Counter
-This project is used to count passenger as they board the train. It ensures precision and accuracy is number.
+This project is used to count passengers as they board the train. It ensures precision and accuracy is number.
 
 
 ### Built with
