@@ -7,14 +7,16 @@
     
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: radial-gradient(lightblue, rgb(90, 90, 204));
     
 }
 
 .container{
-    width: 300px;
+    max-width: 300px;
     padding: 30px 45px;
     position: relative;
     border: 2px solid grey;
@@ -47,7 +49,7 @@ background-repeat: no-repeat;
 
 .head h1{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 19px;
     letter-spacing: 1px;
 }
 
@@ -90,14 +92,20 @@ background-repeat: no-repeat;
     font-size: 13px;
     font-weight: bold;
     margin-left: 15px;
+    margin-top: 10px;
+    
 }
+ .prev{
+    max-width: 200px;
+    
+ }
 
 .social{
     text-align: center;
     margin-top: 10px;
     font-size: 12px;
     font-weight: 700;
-
+    
 }
 
 .social a{
