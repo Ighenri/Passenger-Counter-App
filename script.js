@@ -24,5 +24,6 @@ function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr // This addes the numbers save and then creats a hyphen 
     console.log(count)
-    
+    numCount.textContent = 0
+    count = 0
 }
